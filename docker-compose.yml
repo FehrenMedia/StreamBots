@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  flask:
+    build: ./StreamBots-UI
+    ports:
+      - "5000:5000"
+    expose:
+      - 5000
+  telegram_bot:
+    build: ./StreamBots-TelegramBot
+    env_file:
+      - ./config.env
+  tts:
+    build: ./StreamBots-tts
+    env_file:
+      - ./config.env
+    #devices:
+    #  - /dev/snd
+    
