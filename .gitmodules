@@ -1,0 +1,6 @@
+[submodule "StreamBots-TelegramBot"]
+	path = StreamBots-TelegramBot
+	url = https://github.com/FehrenMedia/StreamBots-TelegramBot.git
+[submodule "StreamBots-UI"]
+	path = StreamBots-UI
+	url = https://github.com/FehrenMedia/StreamBots-UI.git
