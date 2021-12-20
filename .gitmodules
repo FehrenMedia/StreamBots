@@ -4,3 +4,7 @@
 [submodule "StreamBots-UI"]
 	path = StreamBots-UI
 	url = https://github.com/FehrenMedia/StreamBots-UI.git
+[submodule "StreamBots-tts"]
+	path = StreamBots-tts
+	url = https://github.com/FehrenMedia/StreamBots-tts.git
+	
